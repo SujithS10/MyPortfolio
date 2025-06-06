@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Full Stack Developer</h1>
+                <p class="typing-text">I'm a <span class="typed-text">Sujithraj S</span></p>
+                <p class="hero-description">Passionate Java Developer crafting robust and scalable applications with modern technologies.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">BE</span>
+                        <span class="stat-label">Computer Science and Engineering</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="assets/Sujithraj_JavaDeveloperCV.pdf" class="btn primary-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://github.com/SujithS10" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sujithrajs/" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="shape"></div>
+            <div class="floating-elements">
+                <div class="floating-icon java">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="floating-icon mysql">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="floating-icon spring">
+                    <i class="fas fa-leaf"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="assets/images/about section images/PASSPORT (1)-removebg-preview.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>I'm passionate and driven Java Full Stack Developer with a strong command over HTML, CSS, Core & Advanced Java, JDBC, and modern Java-based frameworks. I specialize in building responsive user interfaces, crafting dynamic web experiences, and architecting scalable backend solutions.
+
+                    My focus is on delivering user-centric, innovative web applications that merge technical precision with real-world usability. I'm constantly exploring the evolving tech ecosystem—diving deep into frontend frameworks, RESTful backend architecture, and performance optimization techniques—to stay ahead of the curve.
+                    
+                    I believe in turning bold ideas into impactful digital products through clean code, thoughtful design, and a forward-thinking mindset.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="assets/images/project section images/tic-tac-toe.jpg" alt="Tic Tac Toe">
+                <h3>Tic Tac Toe</h3>
+                <p>"Bringing childhood nostalgia to the browser — clean code, clean wins."</p>
+                <div class="project-links">
+                    <a href="https://github.com/SujithS10/TicTacToe/blob/master/Mini_Project/src/com/game_projectOne/MiniOne.java" class="source-code">
+                        <i class="fas fa-code"></i>
+                        View Source Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project section images/delicious-pizza-studio.jpg" alt="Project 2">
+                <h3>Pizza Bill Generator</h3>
+                <p>"Cheese, crust, and code — served hot with Java."</p>
+                <div class="project-links">
+                    <a href="#" class="source-code">
+                        <i class="fas fa-code"></i>
+                        View Source Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project section images/pexels-n-voitkevich-6214471.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A mobile-first design with advanced features.</p>
+                <div class="project-links">
+                    <a href="#" class="source-code">
+                        <i class="fas fa-code"></i>
+                        View Source Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <h2>Technologies I Know</h2>
+        <div class="tech-grid">
+            <div class="tech-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Mysql</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>JDBC</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fa-solid fa-file-code"></i>
+                <h3>Advance Java</h3>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm" onsubmit="sendEmail(event)">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>sujithraj0307@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 9080859411</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Bengaluru, Karnataka, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            </div>
+            <p>&copy; 2025 sujithraj. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Typing Animation
+        const texts = ['Sujithraj S', 'Java Developer', 'Full Stack Developer'];
+        let count = 0;
+        let index = 0;
+        let currentText = '';
+        let letter = '';
+
+        function type() {
+            if (count === texts.length) {
+                count = 0;
+            }
+            currentText = texts[count];
+            letter = currentText.slice(0, ++index);
+
+            document.querySelector('.typed-text').textContent = letter;
+            if (letter.length === currentText.length) {
+                count++;
+                index = 0;
+                setTimeout(type, 2000);
+            } else {
+                setTimeout(type, 100);
+            }
+        }
+
+        // Start typing animation
+        type();
+
+        // Project cards infinite scroll
+        const projectGrid = document.querySelector('.project-grid');
+        const cards = document.querySelectorAll('.project-card');
+        
+        // Clone cards for infinite scroll
+        cards.forEach(card => {
+            const clone = card.cloneNode(true);
+            projectGrid.appendChild(clone);
+        });
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Email Functionality
+        function sendEmail(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            const mailtoLink = `mailto:sujithraj0307@gmail.com?subject=Portfolio Contact from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+            
+            window.location.href = mailtoLink;
+            
+            // Clear form
+            document.getElementById('contactForm').reset();
+            
+            // Show success message
+            alert('Thank you for your message! I will get back to you soon.');
+        }
+
+        // Add parallax effect to hero section
+        window.addEventListener('mousemove', (e) => {
+            const moveX = (e.clientX - window.innerWidth / 2) * 0.01;
+            const moveY = (e.clientY - window.innerHeight / 2) * 0.01;
+            
+            document.querySelector('.hero-content').style.transform = `translate(${moveX}px, ${moveY}px)`;
+            document.querySelector('.hero-image').style.transform = `translate(${-moveX}px, ${-moveY}px)`;
+        });
+    </script>
+</body>
+</html> 
